@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="TestCases.LoginTest" />
+
+	 		<class name="TestCases.SendMoney" /> 
+		<!-- 	<class name="TestCases.UserManagement" />
+			<class name="TestCases.Profile" /> 
+			<class name="TestCases.Settings" /> 
+			<class name="TestCases.CheckPermission" />
+			<class name="TestCases.TransactionMonitor" /> 
+			<class name="TestCases.CreditsAndCollections" /> 
+			<class name="TestCases.Dashboard" /> 
+			<class name="TestCases.NeedHelp" /> 
+			<class name="TestCases.InformationAndDocuments" />  -->
+			 
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
